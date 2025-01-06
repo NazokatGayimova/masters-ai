@@ -1,7 +1,7 @@
 Here steps that I followed to process audio to text using Whisper. 
 1. I used web version of Whisper: https://ichigo-whisper.homebrew.ltd/
-2. I uploaded the audio and I clicked "Transcripe with Whisper"
-3. I have the text of whole audio:
+2. I uploaded the audio and I clicked "Transcribe with Whisper"
+3. As a result, I have the text of whole audio:
    <img width="1387" alt="Screenshot 2025-01-06 at 15 47 02" src="https://github.com/user-attachments/assets/0db93b01-a70c-4357-a979-4841ab7837ca" />
 
 
