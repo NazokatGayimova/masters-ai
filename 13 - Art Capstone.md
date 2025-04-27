@@ -70,10 +70,12 @@ Design new covers for media pieces using **self-hosted AI image generation**. No
 
 ### 3. Music Album: *Midnights* by Taylor Swift
 - **Original:**
+  
   ![original_midnights](https://github.com/user-attachments/assets/d5d0ccce-c0d0-4831-a920-2f225b03848f)
 
 
 - **AI-Generated:**
+  
   ![generated_midnights](https://github.com/user-attachments/assets/f3827093-6313-4303-9e24-479c724c6909)
 
 
