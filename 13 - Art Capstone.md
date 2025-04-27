@@ -9,11 +9,13 @@ Design new covers for media pieces using **self-hosted AI image generation**. No
 
 ### 1. Book: *The Power of Your Subconscious Mind* by Joseph Murphy
 - **Original:**
+  
   ![original_power_of_subconscious](https://github.com/user-attachments/assets/84bce82a-652f-4fcd-9d6e-9e28f916652a)
 
  
 
 - **AI-Generated:**
+  
   ![generated_power_of_subconscious](https://github.com/user-attachments/assets/969679fe-ab03-4210-a1e8-7d8553244e01)
 
 
