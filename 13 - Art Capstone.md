@@ -9,11 +9,13 @@ Design new covers for media pieces using **self-hosted AI image generation**. No
 
 ### 1. Book: *The Power of Your Subconscious Mind* by Joseph Murphy
 - **Original:**
-  - ![Original Book Cover](book/original_power_of_subconscious.jpg)
+  ![original_power_of_subconscious](https://github.com/user-attachments/assets/84bce82a-652f-4fcd-9d6e-9e28f916652a)
+
  
 
 - **AI-Generated:**
-  - ![Generated Book Cover](book/generated_power_of_subconscious.png)
+  ![generated_power_of_subconscious](https://github.com/user-attachments/assets/969679fe-ab03-4210-a1e8-7d8553244e01)
+
 
 - **Prompt Used:**
   > A dreamy book cover of a glowing brain connected to the universe, text 'The Power of Your Subconscious Mind' on top, author 'Joseph Murphy' at the bottom, soft pastel colors, cosmic energy, beautiful and magical, realistic style
@@ -37,10 +39,12 @@ Design new covers for media pieces using **self-hosted AI image generation**. No
 
 ### 2. Movie: *Hachiko: A Dog's Story*
 - **Original:**
-  - ![Original Movie Poster](movie/original_hachiko.jpg)
+  ![original_hachiko](https://github.com/user-attachments/assets/d875a036-bb5a-4f0b-bbca-b25d2d184e94)
+
 
 - **AI-Generated:**
-  - ![Generated Movie Poster](movie/generated_hachiko.png)
+  ![generated_hachiko](https://github.com/user-attachments/assets/7ce78e21-5cad-44b3-b3e4-91dbcfd05d18)
+
 
 - **Prompt Used:**
   > A heartwarming movie poster showing a loyal Akita dog waiting at a train station, sunset in the background, emotional atmosphere, title 'Hachiko' at the top, soft golden lighting, realistic art style, cinematic, detailed fur texture, emotional expression
@@ -64,10 +68,12 @@ Design new covers for media pieces using **self-hosted AI image generation**. No
 
 ### 3. Music Album: *Midnights* by Taylor Swift
 - **Original:**
-  - ![Original Album Cover](music/original_midnights.jpg)
+  ![original_midnights](https://github.com/user-attachments/assets/d5d0ccce-c0d0-4831-a920-2f225b03848f)
+
 
 - **AI-Generated:**
-  - ![Generated Album Cover](music/generated_midnights.png)
+  ![generated_midnights](https://github.com/user-attachments/assets/f3827093-6313-4303-9e24-479c724c6909)
+
 
 - **Prompt Used:**
   > A moody music album cover of a young woman holding a lighter, close-up face view, dark blue background, dreamy vintage lighting, text 'Midnights' at the top left, stylish and atmospheric, realistic photo style, slightly grainy texture
