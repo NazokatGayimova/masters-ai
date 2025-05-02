@@ -1,6 +1,6 @@
 Githup repo: https://github.com/NazokatGayimova/capstone_support_chat
 
-Hugging Fage deployment link: https://huggingface.co/spaces/Nazokatgmva/volkswagen-support-ai
+Hugging Face deployment link: https://huggingface.co/spaces/Nazokatgmva/volkswagen-support-ai
 
 Hugging Face Dataset link: https://huggingface.co/datasets/Nazokatgmva/volkswagen-support-data/tree/main
 
