@@ -1,124 +1,126 @@
-Here is the link to project github repo: https://github.com/NazokatGayimova/capstone_art_project/tree/main
-
-# AI-Generated Alternative Covers - Capstone Art Project
+ # AI-Generated Alternative Covers - Capstone Art Project
 
 ## Objective
-Design new covers for media pieces using **self-hosted AI image generation**. No public tools (like Sora, Replicate) were used. All generation was done **locally** on a MacBook Air M3 using **AUTOMATIC1111 Stable Diffusion WebUI**.
+
+Design new covers for media pieces using a self-hosted AI image generation solution. No public tools (like Sora, Replicate) were used. All generation was done locally on a MacBook Air M3 using a self-hosted model.
 
 ## Media Pieces
 
-### 1. Book: *The Power of Your Subconscious Mind* by Joseph Murphy
-- **Original:**
-  
-  ![original_power_of_subconscious](https://github.com/user-attachments/assets/84bce82a-652f-4fcd-9d6e-9e28f916652a)
+### 1. Music Album: Midnights by Taylor Swift
 
- 
+**Original Work:**
 
-- **AI-Generated:**
-  
-  ![generated_power_of_subconscious](https://github.com/user-attachments/assets/969679fe-ab03-4210-a1e8-7d8553244e01)
+![Original_Album](https://github.com/user-attachments/assets/2b18381f-c5d4-4ed9-ae09-875bf8e6cf60)
 
 
-- **Prompt Used:**
-  > A dreamy book cover of a glowing brain connected to the universe, text 'The Power of Your Subconscious Mind' on top, author 'Joseph Murphy' at the bottom, soft pastel colors, cosmic energy, beautiful and magical, realistic style
+AI-Generated Work:**
 
-- **Negative Prompt:**
-  > blurry, ugly, low quality, distorted, mutated, text errors
+![AI-Generated_Album](https://github.com/user-attachments/assets/f2613f7d-6640-41e5-abf2-ac9443f86c56)
 
-- **Generation Details:**
-  - Model: Stable Diffusion v1.5
-  - Steps: 30
-  - Sampler: DPM++ 2M Karras
-  - CFG Scale: 7.0
-  - Strength: 0.35
-  - Resize Mode: Crop and Resize
 
-- **Screenshot:**
-<img width="1470" alt="Screenshot 2025-04-27 at 19 07 13" src="https://github.com/user-attachments/assets/a7b25cce-4e77-4eaf-8d75-faf4ec1473ee" />
+**Prompt Used:**
+A close-up portrait of Taylor Swift with a dreamy, introspective expression, holding a lighter with a soft flame, dark blue background, slightly grainy vintage photo style, deep shadows, subtle light reflections, cinematic film grain, the title ‘Midnights’ in clean serif font at the top left. Midnights is the cover name and must be included (font does not matter).
+
+**Workflow:**
+
+* **Model Used:** Stable Diffusion v1.5 ([Hugging Face Model](https://huggingface.co/runwayml/stable-diffusion-v1-5))
+* **Loras/Extensions:** None
+* **Technical Generation Details:**
+
+  * **Steps:** 30
+  * **CFG Scale:** 7.0
+  * **Sampler:** DPM++ 2M Karras
+* **Resources Used:**
+
+  * WebUI: Local Stable Diffusion WebUI (AUTOMATIC1111)
+  * Hardware: MacBook Air M3 (ARM64 architecture)
+  * Python 3.10, diffusers, torch, and transformers libraries installed in a virtual environment
+
+**Screenshot of Pipeline:**
+<img width="1470" alt="Album_Workflow" src="https://github.com/user-attachments/assets/65e58038-9866-4f1d-8c09-4d54775c3612" />
+
+---
+
+### 2. Book: The Power of Your Subconscious Mind by Joseph Murphy
+
+**Original Work:**
+
+![original_book](https://github.com/user-attachments/assets/ec33abba-472e-4a77-89ef-600b42c2ec36)
+
+
+**AI-Generated Work:**
+
+![AI-generated_book](https://github.com/user-attachments/assets/f40ef41b-f829-4f1a-9583-93eecec1c3a7)
+
+
+**Prompt Used:**
+The book: “The Power of Your Subconscious Mind” at the top, with “Joseph Murphy” at the bottom. A vibrant book cover with a glowing brain silhouette, cosmic colors.
+
+**Workflow:**
+
+* **Model Used:** Stable Diffusion v1.5 ([Hugging Face Model](https://huggingface.co/runwayml/stable-diffusion-v1-5))
+* **Loras/Extensions:** None
+* **Technical Generation Details:**
+
+  * **Steps:** 30
+  * **CFG Scale:** 7.0
+  * **Sampler:** DPM++ 2M Karras
+* **Resources Used:**
+
+  * WebUI: Local Stable Diffusion WebUI (AUTOMATIC1111)
+  * Hardware: MacBook Air M3 (ARM64 architecture)
+  * Python 3.10, diffusers, torch, and transformers libraries installed in a virtual environment
+
+**Screenshot of Pipeline:**
+
+<img width="1470" alt="Screenshot 2025-05-11 at 17 22 15" src="https://github.com/user-attachments/assets/2b7b3215-8bb9-4fe8-aecf-fd8c9bf4b0d3" />
 
 
 ---
 
-### 2. Movie: *Hachiko: A Dog's Story*
-- **Original:**
-  ![original_hachiko](https://github.com/user-attachments/assets/d875a036-bb5a-4f0b-bbca-b25d2d184e94)
+### 3. Movie: Hachiko: A Dog's Story
+
+**Original Work:**
+
+![movie](https://github.com/user-attachments/assets/f55c5946-50d8-42c3-ad63-a18fc27bced1)
 
 
-- **AI-Generated:**
-  ![generated_hachiko](https://github.com/user-attachments/assets/7ce78e21-5cad-44b3-b3e4-91dbcfd05d18)
+**AI-Generated Work:**
+
+![AI-Generated_movei](https://github.com/user-attachments/assets/7e12479d-5117-46ea-9d0e-ad8ceb490ed5)
 
 
-- **Prompt Used:**
-  > A heartwarming movie poster showing a loyal Akita dog waiting at a train station, sunset in the background, emotional atmosphere, title 'Hachiko' at the top, soft golden lighting, realistic art style, cinematic, detailed fur texture, emotional expression
+**Prompt Used:**
+The movie title "Hachiko": middle aged white man with one white Akito dog - Hugging each other.
 
-- **Negative Prompt:**
-  > blurry, messy, extra limbs, cartoonish, anime style, ugly, bad lighting, wrong proportions
+**Workflow:**
 
-- **Generation Details:**
-  - Model: Stable Diffusion v1.5
-  - Steps: 30
-  - Sampler: DPM++ 2M Karras
-  - CFG Scale: 7.0
-  - Strength: 0.3
-  - Resize Mode: Crop and Resize
+* **Model Used:** Stable Diffusion v1.5 ([Hugging Face Model](https://huggingface.co/runwayml/stable-diffusion-v1-5))
+* **Loras/Extensions:** None
+* **Technical Generation Details:**
 
-- **Screenshot:**
-<img width="1470" alt="Screenshot 2025-04-27 at 19 11 47" src="https://github.com/user-attachments/assets/a254c99a-d2ef-4c71-9e52-16053c3d622b" />
+  * **Steps:** 30
+  * **CFG Scale:** 7.0
+  * **Sampler:** DPM++ 2M Karras
+* **Resources Used:**
 
+  * WebUI: Local Stable Diffusion WebUI (AUTOMATIC1111)
+  * Hardware: MacBook Air M3 (ARM64 architecture)
+  * Python 3.10, diffusers, torch, and transformers libraries installed in a virtual environment
 
----
+**Screenshot of Pipeline:**
 
-### 3. Music Album: *Midnights* by Taylor Swift
-- **Original:**
-  
-  ![original_midnights](https://github.com/user-attachments/assets/d5d0ccce-c0d0-4831-a920-2f225b03848f)
+<img width="1470" alt="Screenshot 2025-05-11 at 17 37 14" src="https://github.com/user-attachments/assets/5f4ede38-b9e3-4e4c-88f4-c46854457090" />
 
-
-- **AI-Generated:**
-  
-  ![generated_midnights](https://github.com/user-attachments/assets/f3827093-6313-4303-9e24-479c724c6909)
-
-
-- **Prompt Used:**
-  > A moody music album cover of a young woman holding a lighter, close-up face view, dark blue background, dreamy vintage lighting, text 'Midnights' at the top left, stylish and atmospheric, realistic photo style, slightly grainy texture
-
-- **Negative Prompt:**
-  > blurry, ugly, cartoonish, wrong lighting, wrong pose, anime style, distorted face
-
-- **Generation Details:**
-  - Model: Stable Diffusion v1.5
-  - Steps: 30
-  - Sampler: DPM++ 2M Karras
-  - CFG Scale: 7.0
-  - Strength: 0.25
-  - Resize Mode: Crop and Resize
-
-- **Screenshot:**
-  <img width="1470" alt="Screenshot 2025-04-27 at 19 15 42" src="https://github.com/user-attachments/assets/5c01f499-4311-4b37-b957-d8e1834d6c1b" />
 
 
 ---
-
-## Workflow Details
-- **Model Used:** Stable Diffusion v1.5
-  - [AUTOMATIC1111 Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-- **Extensions / Loras / Adapters:** None
-- **Local Deployment:**
-  - Self-hosted on MacBook Air M3
-  - Python 3.10 (installed via Homebrew)
-  - All images generated through **img2img** workflow with realistic prompts and settings.
-- **Web UI:** AUTOMATIC1111's local webui (port 7860)
-- **Hardware:** MacBook Air M3 (ARM64 architecture)
 
 ## Notes
-- Only self-hosted solutions were used.
-- No external APIs (Sora, Replicate, etc.) were accessed.
-- Screenshots and all generated materials are saved locally.
+
+* All images were generated using a self-hosted setup without external APIs like Sora or Replicate.
+* The prompts were carefully crafted to match the original theme and style of each media piece while introducing a unique artistic interpretation.
+* The project was entirely managed locally on a MacBook Air M3, ensuring full control over the generation process.
 
 ---
 
-# End of Document ✅
-
----
-
-> *(All files (originals, generated, screenshots) are placed inside "book/", "movie/", "music/" folders respectively.)*
