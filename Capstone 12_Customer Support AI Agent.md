@@ -1,15 +1,6 @@
 
 Hugging Face deployment link: https://huggingface.co/spaces/Nazokatgmva/AI_Support_Volkswagen
 
----
-title: "Volkswagen AI Support Chat"
-emoji: "🚗"
-colorFrom: "blue"
-colorTo: "green"
-sdk: "streamlit"
-app_file: "app.py"
-pinned: false
----
 
 # 🚗 Volkswagen AI Support Chat
 
